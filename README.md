@@ -85,7 +85,7 @@ create table casos_vector (
 
 ## 5. Orquestração n8n
 
-```mermaid
+
 graph TD
 A[Client] --> B[Webhook]
 B --> C[Extractor (OpenAI/Regex)]
@@ -95,7 +95,7 @@ E -->|Supabase DB Tool| F[Supabase]
 E -->|Vector Store Tool| G[Supabase Vector Store]
 E --> H{ask_next}
 E --> I{run_action → HTTP/Email}
-```
+
 
 - O AI Agent funciona como Tools Agent (n8n ≥ 1.82), integrado ao vetor store.
 
