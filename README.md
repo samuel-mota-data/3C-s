@@ -1,4 +1,8 @@
+Claro! Aqui está o README.md com os links internos corrigidos para navegação perfeita no GitHub. Segui o padrão de links internos do GitHub, considerando acentuação e numeração dos títulos.
 
+---
+
+```markdown
 # 3C-s
 
 **Método 3 C’s**  
@@ -8,26 +12,25 @@ Arquitetura Determinística de Diálogo com n8n + Supabase e RAG como Garantia d
 
 ## Sumário
 
-1. [Resumo](#resumo)
-2. [Visão Executiva](#visão-executiva)
-3. [Modelo Conceitual](#modelo-conceitual)
-4. [Dados: Supabase Relacional + Vetor Store](#dados-supabase-relacional--vetor-store)
-5. [Orquestração n8n](#orquestração-n8n)
-6. [Algoritmo do Compositor](#algoritmo-do-compositor)
-7. [Pipeline Turno-a-Turno (Exemplo)](#pipeline-turno-a-turno-exemplo)
-8. [Governança, Segurança & Conformidade](#governança-segurança--conformidade)
-9. [Performance & Escalabilidade](#performance--escalabilidade)
-10. [Validação Experimental](#validação-experimental)
-11. [Limitações & Mitigações](#limitações--mitigações)
-12. [Conclusão](#conclusão)
-13. [Referências](#referências)
+1. [Resumo](#1-resumo)
+2. [Visão Executiva](#2-visão-executiva)
+3. [Modelo Conceitual](#3-modelo-conceitual)
+4. [Dados: Supabase Relacional + Vetor Store](#4-dados-supabase-relacional--vetor-store)
+5. [Orquestração n8n](#5-orquestração-n8n)
+6. [Algoritmo do Compositor](#6-algoritmo-do-compositor)
+7. [Pipeline Turno-a-Turno (Exemplo)](#7-pipeline-turno-a-turno-exemplo)
+8. [Governança, Segurança & Conformidade](#8-governança-segurança--conformidade)
+9. [Performance & Escalabilidade](#9-performance--escalabilidade)
+10. [Validação Experimental](#10-validação-experimental)
+11. [Limitações & Mitigações](#11-limitações--mitigações)
+12. [Conclusão](#12-conclusão)
+13. [Referências](#13-referências)
 
 ---
 
 ## 1. Resumo
 
-> Apresenta-se uma estratégia onde toda criatividade linguística fica confinada às bordas do sistema. No núcleo, impera lógica determinística baseada em: Componentes (chave = valor), Contexto-grafo e Compositor (AI Agent) com garantia de exatidão via RAG.
->
+> Apresenta-se uma estratégia onde toda criatividade linguística fica confinada às bordas do sistema. No núcleo, impera lógica determinística baseada em: Componentes (chave = valor), Context[...]
 
 ![Captura de tela 2025-06-09 232928](https://github.com/user-attachments/assets/ab21df32-7c16-4e46-a52a-989c2e446633)
 
@@ -100,7 +103,6 @@ E -->|Vector Store Tool| G[Supabase Vector Store]
 E --> H{ask_next}
 E --> I{run_action → HTTP/Email}
 
-
 - O AI Agent funciona como Tools Agent (n8n ≥ 1.82), integrado ao vetor store.
 
 ---
@@ -168,7 +170,7 @@ def compositor(graph, obrigatorios, ordem):
 
 ## 12. Conclusão
 
-RAG deixa de ser mero complemento e ancora o LLM em fatos imutáveis, viabilizando núcleo 100% determinista. Com n8n e Supabase, equipes de dados podem construir, auditar e escalar chatbots confiáveis.
+RAG deixa de ser mero complemento e ancora o LLM em fatos imutáveis, viabilizando núcleo 100% determinista. Com n8n e Supabase, equipes de dados podem construir, auditar e escalar chatbots conf[...]
 
 ---
 
@@ -180,4 +182,6 @@ RAG deixa de ser mero complemento e ancora o LLM em fatos imutáveis, viabilizan
 4. [AI Agent Node – n8n Docs](https://docs.n8n.io)
 5. [Supabase Node – n8n Docs](https://docs.n8n.io)
 6. [Understand AI Tools – n8n Docs](https://docs.n8n.io)
+```
 
+---
