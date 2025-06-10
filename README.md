@@ -1,8 +1,4 @@
-Claro! Aqui está o README.md com os links internos corrigidos para navegação perfeita no GitHub. Segui o padrão de links internos do GitHub, considerando acentuação e numeração dos títulos.
 
----
-
-```markdown
 # 3C-s
 
 **Método 3 C’s**  
