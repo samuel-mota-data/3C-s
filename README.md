@@ -88,7 +88,7 @@ create table casos_vector (
 ## 5. Orquestração n8n
 
 ![Captura de tela 2025-06-09 234350](https://github.com/user-attachments/assets/eaaa2ccc-848c-4c44-8521-6217c3001a23)
-
+*exemplo de uso real que utiliza esse conceito
 graph TD
 A[Client] --> B[Webhook]
 B --> C[Extractor (OpenAI/Regex)]
