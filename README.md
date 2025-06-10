@@ -27,6 +27,24 @@ Arquitetura Determinística de Diálogo com n8n + Supabase e RAG como Garantia d
 ## 1. Resumo
 
 > Apresenta-se uma estratégia onde toda criatividade linguística fica confinada às bordas do sistema. No núcleo, impera lógica determinística baseada em: Componentes (chave = valor), Contexto-grafo e Compositor (AI Agent) com garantia de exatidão via RAG.
+>
+> 
+┌──────────────────────────┐   (1) texto natural
+│ Porta de Entrada         │ ◀────────── Cliente
+│  n8n • NLU (LLM/Regex)   │
+└────────────┬─────────────┘
+             │ ΔComponentes
+┌────────────▼─────────────┐
+│ Núcleo 3 C’s (n8n)       │
+│ • Componentes (SQL)      │
+│ • Contexto-grafo (SQL)   │
+│ • Compositor (AI Agent)  │
+└────────────┬─────────────┘
+             │ Resultado estruturado
+┌────────────▼─────────────┐   (2) texto natural
+│ Porta de Saída           │ ──────────▶ Cliente
+│  n8n • NL-Gen (LLM/templ)│
+└──────────────────────────┘
 
 ---
 
